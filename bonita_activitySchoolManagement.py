@@ -50,3 +50,14 @@ class Student(Person):
 student1 = Student("Mona Lina G. Albarracin Jr", 20)
 student1.display_info()
 student1.study()
+
+#excer 4
+
+class Teacher(Person):
+    def teach(self):
+        print(f"{self.name} is teaching")
+
+
+teacher1 = Teacher("THE Mona Lina G. Albarracin", 30)
+teacher1.display_info()
+teacher1.teach()
